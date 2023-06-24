@@ -4,6 +4,8 @@
 body{
     background: linear-gradient(40deg, rgb(255, 165, 0),blue);
     background-repeat: no-repeat;
+
+   /* background-size:cover ; */
 }
 
 .header .logo-1{
@@ -65,7 +67,18 @@ form{
     max-width: max-content; 
     font-size: 20px;
     font-weight: 600;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
 }
+/* .row{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    
+} */
 
 
 .button{
@@ -78,10 +91,13 @@ form{
     
     max-width: fit-content;
     padding: 2px;
-    background-color: #c70b0b;
+    background-color: #ccfb56;
     text-decoration: none;
 
 }
 label{
     padding: 20px;
+}
+footer{
+    margin-top: 25%;
 }
